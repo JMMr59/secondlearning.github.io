@@ -1,0 +1,251 @@
+body {
+    margin: 0 auto;
+    width: 1440px;
+    max-width: 1440px;
+    min-width: 920px;
+    padding: 0;
+    height: 100%;
+    background-color: #000000;
+    
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: none;
+    background-position: top, center;
+}
+a {
+    text-decoration: none;
+}
+.main-navigation {
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: inherit;
+    font-size: 15px;
+    line-height: 24px;
+    box-sizing: content-box;
+    margin-bottom: -45px;
+    margin-top: -32px;
+    height: 128px;
+    z-index: 5;
+}
+.main-navigation img {
+    position: relative;
+    top: 60px;
+    left: 150px;
+    z-index: 5;
+}
+ul.nav-list li {
+    display: inline-block;
+    margin: 38px 24px;
+    z-index: 5;
+}
+ul.nav-list a {
+    position: relative;
+    left: 600px;
+    bottom: 30px;
+    color: #484c55;
+    z-index: 5;
+}
+ul.nav-list a:focus {
+    color: #49cbcd;
+    background: #515151;
+    outline: none;
+    border-bottom: 3px solid #49cbcd;
+    z-index: 5;
+}
+#now-checked {
+    color: #49cbcd;
+    background-color: rgb(248, 249, 251);
+    padding: 37px 24px;
+    border-bottom: 3px solid #49cbcd;
+    z-index: 10;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+.main-block {
+    position: relative;
+    top: 96px;
+}
+.background-select-left {
+    position: relative;
+    display: block;
+    width: 51px;
+    height: 51px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    border: none;
+    color: #49cbcd;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    bottom: 500px;
+    left: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 5;
+}
+.icon-left {
+    position: relative;
+    right: 3px;
+}
+.background-select-right {
+    position: relative;
+    display: block;
+    width: 51px;
+    height: 51px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    border: none;
+    color: #49cbcd;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    bottom: 550px;
+    left: 1355px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 5;
+}
+.icon-right {
+    position: relative;
+    left: 3px;
+}
+.main-header {
+    position: relative;
+    font-weight: 600;
+    font-size: 63px;
+    color: #ffffff;
+    z-index: 2;
+    bottom: 460px;
+    left: 410px;
+    width: 700px;
+}
+.main-block p {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 37px;
+    bottom: 440px;
+}
+.learn-more-button {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+    padding: 20px 40px 20px 40px;
+    bottom: 525px;
+    left: 600px;
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.learn-more-button:active {
+    background-color: rgb(59, 57, 57, 0.5);
+    z-index: 2;
+}
+.icon-left:active {
+    background-color: rgba(255, 255, 255, 0);
+}
+.background-select-left:active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.background-select-left:focus {
+    outline: none;
+    background-color: #515151;
+}
+.background-select-right:active {
+    outline: none;
+}
+.background-select-right:focus {
+    outline: none;
+    background-color: #515151;
+}
+.learn-more-button:focus {
+    outline: none;
+    background-color: rgba(135, 206, 235, 0.5);
+    z-index: 2;
+}
+.features {
+    background-color: #ffffff;
+    position: relative;
+    bottom: 282px;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: -150px;
+    padding-top: 100px;
+}
+.features div {
+    position: relative;
+    display: inline-block;
+    width: 290px;
+    padding-left: 15px;
+}
+.read-more-button {
+    background-color: #49cbcd;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 15px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.features h2 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.features p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.portfolio {
+    background-color: #f1f1f1;
+    text-align: center;
+    position: relative;
+    bottom: 282px;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+.portfolio h2 {
+    position: relative;
+    font-size: 42px;
+    line-height: 24px;
+    color: #4e525d;
+    bottom: 30px;
+    font-weight: 400;
+}
+.portfolio img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.see-all-button {
+    position: relative;
+    top: 40px;
+    background-color: #49cbcd;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14px 30px;
+    border-radius: 3px;
+    color: #ffffff;
+}
