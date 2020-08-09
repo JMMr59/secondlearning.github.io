@@ -70,7 +70,7 @@ ul.nav-list a:focus {
     padding: 0;
     overflow: hidden;
     border: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
 }
 .main-block {
     position: relative;
@@ -190,8 +190,8 @@ ul.nav-list a:focus {
     bottom: 282px;
     text-align: center;
     padding: 100px;
-    padding-bottom: -150px;
-    padding-top: 100px;
+    padding-top: 150px;
+    margin-top: -18px;
 }
 .features div {
     position: relative;
@@ -208,7 +208,7 @@ ul.nav-list a:focus {
     border-radius: 8px;
     color: #ffffff;
 }
-.features h2 {
+.features h3 {
     font-size: 22px;
     line-height: 24px;
     font-weight: 400;
@@ -226,7 +226,7 @@ ul.nav-list a:focus {
     padding: 50px;
     padding-bottom: 150px;
 }
-.portfolio h2 {
+.portfolio h3 {
     position: relative;
     font-size: 42px;
     line-height: 24px;
@@ -256,22 +256,22 @@ ul.nav-list a:focus {
     bottom: 282px;
     text-align: center;
     padding: 100px;
-    padding-bottom: -150px;
+    padding-top: 150px;
     padding-top: 100px;
 }
-.our-team h1 {
+.our-team h2 {
     font-size: 42px;
     font-weight: 400;
     position: relative;
-    bottom: 100px;
-    padding: 100px;
+    bottom: 70px;
+    padding: 50px;
 }
-.our-team h2 {
+.our-team h3 {
     font-size: 22px;
     line-height: 15px;
     font-weight: 400;
 }
-.our-team h3 {
+.our-team h4 {
     position: relative;
     bottom: 8px;
     font-size: 16px;
@@ -321,14 +321,18 @@ ul.nav-list a:focus {
     font-size: 14px;
     font-weight: 400;
 }
-#price-product {
+#price-product-1,
+#price-product-2,
+#price-product-3 {
     height: 60px;
     background-color: #f8f9fb;
     color: #485460;
     font-size: 20px;
     font-weight: 400;
 }
-#buy {
+#buy-1,
+#buy-2,
+#buy-3 {
     background-color: #f8f9fb;
     height: 70px;
 }
@@ -351,7 +355,7 @@ ul.nav-list a:focus {
     position: relative;
     bottom: 282px;
 }
-.feedback h1 {
+.feedback h2 {
     position: relative;
     bottom: 20px;
     font-size: 42px;
@@ -378,7 +382,7 @@ ul.nav-list a:focus {
     position: relative;
     bottom: 310px;
 }
-.main-footer h1 {
+.main-footer h2 {
     position: relative;
     top: 100px;
     text-align: center;
@@ -449,7 +453,7 @@ ul.nav-list a:focus {
     left: 100px;
     width: 1000px;
 }
-.contacts h2 {
+.contacts h3 {
     font-size: 24px;
     font-weight: 400;
 }
