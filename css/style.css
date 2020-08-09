@@ -389,8 +389,9 @@ ul.nav-list a:focus {
 .main-footer form {
     text-align: right;
     position: relative;
-    right: 100px;
+    left: 400px;
     top: 150px;
+    width: 1000px;
     border-radius: 5px;
 }
 #but1 {
@@ -446,6 +447,7 @@ ul.nav-list a:focus {
     position: relative;
     bottom: 180px;
     left: 100px;
+    width: 1000px;
 }
 .contacts h2 {
     font-size: 24px;
