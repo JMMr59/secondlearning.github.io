@@ -76,25 +76,30 @@
         <a class="see-all-button" href="#">See all works</a>
     </section>
     <section class="our-team">
+        <h1>The Team</h1>
         <div class="CEO-1">
+            <img src="img/photo-team.jpg" width="201" height="201" alt="photo team"></a>
             <h2>Adrian Thomas</h2>
             <h3>CEO & Founder</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been</p>
         </div>
         <div class="creative-director-1">
+            <img src="img/photo-team.jpg" width="201" height="201" alt="photo team"></a>
             <h2>Narate Ketram</h2>
             <h3>Creative Director</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been</p>
         </div>
         <div class="CEO-2">
+            <img src="img/photo-team.jpg" width="201" height="201" alt="photo team"></a>
             <h2>Fernando Comet</h2>
             <h3>CEO & Founder</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been</p>
         </div>
         <div class="creative-director-2">
+            <img src="img/photo-team.jpg" width="201" height="201" alt="photo team"></a>
             <h2>Adedayo Saheed</h2>
             <h3>Creative Director</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -107,40 +112,40 @@
             <tr>
                 <th>Basic</th>
             </tr>
-            <tr><td>$5.01/Month</td></tr>
+            <tr id="price-product"><td>$5.01/Month</td></tr>
             <tr><td>Lorem ipsum</td></tr>
             <tr><td>Dolor sit amet, consect</td></tr>
             <tr><td>Adipiscing elit</td></tr>
             <tr><td>Proin commodo turpis</td></tr>
             <tr><td>Lacus pulvinarvel</td></tr>
             <tr><td>Prnare nisi pretium.</td></tr>
-            <tr><td><button class="buy-now-1">Buy now</button></td></tr>
-        </table>
+            <tr id="buy"><td><a class="buy-now-1" href="#">Buy now</a></td></tr>
+       </table>
         <table class="pro">
             <tr>
                 <th>Pro</th>
             </tr>
-            <tr><td>$10.01/Month</td></tr>
+            <tr id="price-product"><td>$10.01/Month</td></tr>
             <tr><td>Lorem ipsum</td></tr>
             <tr><td>Dolor sit amet, consect</td></tr>
             <tr><td>Adipiscing elit</td></tr>
             <tr><td>Proin commodo turpis</td></tr>
             <tr><td>Lacus pulvinarvel</td></tr>
             <tr><td>Prnare nisi pretium.</td></tr>
-            <tr><td><button class="buy-now-1">Buy now</button></td></tr>
+            <tr id="buy"><td><a class="buy-now-2" href="#">Buy now</a></td></tr>
         </table>
         <table class="premium">
             <tr>
-                <th>premium</th>
+                <th>Premium</th>
             </tr>
-            <tr><td>$20.01/Month</td></tr>
+            <tr id="price-product"><td>$20.01/Month</td></tr>
             <tr><td>Lorem ipsum</td></tr>
             <tr><td>Dolor sit amet, consect</td></tr>
             <tr><td>Adipiscing elit</td></tr>
             <tr><td>Proin commodo turpis</td></tr>
             <tr><td>Lacus pulvinarvel</td></tr>
             <tr><td>Prnare nisi pretium.</td></tr>
-            <tr><td><button class="buy-now-1">Buy now</button></td></tr>
+            <tr id="buy"><td><a class="buy-now-1" href="#">Buy now</a></td></tr>
         </table>
     </section>
     <section class="feedback">
@@ -148,26 +153,26 @@
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when 
             an unknown printer took a gallery of type.</p>
-        <p class="client name">John Dove</p>
+        <p id="client-name">John Dove</p>
     </section>
     <footer class="main-footer">
         <h1>Contact Us</h1>
         <form action="#" method="POST">
-            <ul>
+            <ul class="text-area">
                 <li>
-                    <label for="name">Name:</label>
-                    <input type="text" name="username" id="name">
+                    <label class="visually-hidden" for="name">Name:</label>
+                    <input type="text" name="username" id="name" placeholder="Name">
                 </li>
                 <li>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" name="user-mail" id="mail">
+                    <label class="visually-hidden" for="mail">E-mail:</label>
+                    <input type="email" name="user-mail" id="mail" placeholder="Email">
                 </li>
                 <li>
-                    <label for="message">Message:</label>
-                    <textarea name="user-message" id="message" cols="30" rows="10"></textarea>
+                    <label class="visually-hidden" for="message">Message:</label>
+                    <textarea name="user-message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                 </li>
                 <li class="button">
-                    <button type="submit">Send</button>
+                    <button id="but1" type="submit">Send</button>
                 </li>
             </ul>
         </form>
@@ -177,16 +182,16 @@
                 Lorem Ipsum has been the industry's</p>
             <ul class="social-networks">
                 <li>
-                    <a href="#">Facebook</a>
+                    <a href="#"><img src="img/facebook.png" width="42" height="42" alt="facebook icon"></a>
                 </li>
                 <li>
-                    <a href="#">Twitter</a>
+                    <a href="#"><img src="img/twitter.png" width="42" height="42" alt="twitter icon"></a>
                 </li>
                 <li>
-                    <a href="#">Google+</a>
+                    <a href="#"><img src="img/google+.png" width="42" height="42" alt="google+ icon"></a>
                 </li>
             </ul>
-            <p class="contact-info">Cssaauthor.com<br>
+            <p id="contact-info">Cssaauthor.com<br>
             +XX-XXXX-XXXX-XX<br>
             info@cssauthor.com</p>
         </section>       
