@@ -4,9 +4,9 @@ body {
     max-width: 1440px;
     min-width: 920px;
     padding: 0;
-    height: 100%;
+    height: 4905px;
     background-color: #000000;
-    
+    margin-bottom: -200px;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
     line-height: 20px;
@@ -155,6 +155,7 @@ ul.nav-list a:focus {
     font-size: 26px;
     line-height: 24px;
     font-weight: 600;
+    cursor: pointer;
 }
 .learn-more-button:active {
     background-color: rgb(59, 57, 57, 0.5);
@@ -248,4 +249,225 @@ ul.nav-list a:focus {
     padding: 14px 30px;
     border-radius: 3px;
     color: #ffffff;
+}
+.our-team {
+    background-color: #ffffff;
+    position: relative;
+    bottom: 282px;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: -150px;
+    padding-top: 100px;
+}
+.our-team h1 {
+    font-size: 42px;
+    font-weight: 400;
+    position: relative;
+    bottom: 100px;
+    padding: 100px;
+}
+.our-team h2 {
+    font-size: 22px;
+    line-height: 15px;
+    font-weight: 400;
+}
+.our-team h3 {
+    position: relative;
+    bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.our-team div {
+    position: relative;
+    display: inline-block;
+    width: 290px;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.our-team img {
+    margin-bottom: 50px;
+}
+.price {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    bottom: 282px;
+}
+.price table {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+}
+.price th,
+.price td {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.basic th,
+.premium th {
+    background-color: #485460;
+    color: #ffffff;
+}
+.pro th {
+    background-color: #49cbcd;
+    color: #ffffff;
+}
+.price tr {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+#price-product {
+    height: 60px;
+    background-color: #f8f9fb;
+    color: #485460;
+    font-size: 20px;
+    font-weight: 400;
+}
+#buy {
+    background-color: #f8f9fb;
+    height: 70px;
+}
+.buy-now-1 {
+    background-color: #788492;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 3px;
+}
+.buy-now-2 {
+    background-color: #49cbcd;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 3px;
+}
+.feedback {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 150px;
+    position: relative;
+    bottom: 282px;
+}
+.feedback h1 {
+    position: relative;
+    bottom: 20px;
+    font-size: 42px;
+    font-weight: 400;
+    color: #4e525d;
+}
+.feedback p {
+    width: 730px;
+    position: relative;
+    left: 207px;
+    top: 30px;
+    font-size: 20px;
+    color: #4e525d;
+}
+#client-name {
+    color: #9a8faf;
+    font-size: 24px;
+    position: relative;
+    top: 50px;
+}
+.main-footer {
+    background-image: url(../img/footer-background.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 310px;
+}
+.main-footer h1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 400;
+}
+.main-footer form {
+    text-align: right;
+    position: relative;
+    right: 100px;
+    top: 150px;
+    border-radius: 5px;
+}
+#but1 {
+    background-color: #49cbcd;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 3px;
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+}
+
+#message {
+    position: relative;
+}
+
+#name,
+#mail,
+#message {
+    border-radius: 2px;
+    position: relative;
+    border: none;
+    
+}
+#message {
+    height: 200px;
+    width: 600px;
+    resize: none;
+}
+#name, #mail {
+    width: 280px;
+    height: 40px;
+}
+#name {
+    right: 320px;
+    top: 20px;
+    
+}
+#mail {
+    bottom: 22px;
+}
+#message::placeholder,
+#name::placeholder,
+#mail::placeholder {
+    font-size: 16px;
+    color: rgba(197, 197, 197, 0.5);
+    position: relative;
+    left: 15px;
+    width: 70px;
+}
+.contacts {
+    color: #ffffff;
+    position: relative;
+    bottom: 180px;
+    left: 100px;
+}
+.contacts h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.contacts p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 450px;
+    color: #999999;
+    line-height: 21px;
+}
+#contact-info {
+    position: relative;
+    color: #bface2;
+    top: 10px;
+    line-height: 24px;
+}
+ul.social-networks li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    right: 50px;
+    top: 20px;
 }
