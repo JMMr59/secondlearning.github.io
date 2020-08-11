@@ -215,14 +215,20 @@ ul.categories-list li {
 .categories-list a {
     padding-left: 17px;
 }
-.categories-list a:hover, span:hover {
+.categories-list a:hover {
     margin-left: 0px;
     background-color: #485460;
     color: #ffffff;
     padding: 10px;
     border-radius: 5px;
 }
-
+.categories-list span:hover {
+    margin-left: 0px;
+    background-color: #485460;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
 .popular-posts h2 {
     font-size: 26px;
     font-weight: 400;
