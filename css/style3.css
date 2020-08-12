@@ -29,7 +29,7 @@ a {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 1fr));
-    grid-template-rows: 1% 1fr 4fr 1fr;
+    grid-template-rows: minmax(100px, 1%) minmax(100px, 1fr) minmax(100px, 4fr) minmax(100px, 1fr);
     background-color: #ffffff;
     font-size: 15px;
     line-height: 24px;
@@ -40,13 +40,14 @@ a {
     grid-column: 1 / 2;
     justify-self: center;
     align-self: center;
+    padding: 10%;
 }
 .nav-list {
     grid-row: 1 / 2;
     grid-column: 3 / 5;
 }
 ul.nav-list li {
-    padding: 3.2%;
+    padding: 4%;
     display: inline-block;
     z-index: 5;
 }
@@ -63,7 +64,7 @@ ul.nav-list a:focus {
 }
 #now-checked {
     background-color: rgb(248, 249, 251);
-    padding: 37px 24px;
+    padding: 90% 45%;
     border-bottom: 3px solid #49cbcd;
     z-index: 10;
 }
