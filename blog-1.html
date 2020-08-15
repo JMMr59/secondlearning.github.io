@@ -12,7 +12,7 @@
 </head>
 <body>
     <section class="grid">
-        <img class="logo" src="img/logo.png" width="120" height="37" alt="main-logo">
+        <a class="logo" href="index.html"><img src="img/logo.png" width="120" height="37" alt="main-logo"></a>
         <h1 class="visually-hidden">Navigation of site Author</h1>
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
@@ -75,33 +75,36 @@
                                 </blockquote>
                                 <span class="whos-citate">Robort John</span>
                             </section>
-                                <div class="share">
-                                    <h3>Share With your friends</h3>
-                                    <a class="tweeter-share" href="#">tweeter</a>
-                                    <a class="facebook-share" href="#">FB</a>
-                                    <a class="Google+-share" href="#">g+</a>
+                                <fieldset class="share">
+                                    <legend>Share With your friends</legend>
+                                    <img src="img/social-buttons.jpg" width="40%" height="40%" alt="social-buttons-block-with-count">
+                                </fieldset>
+                                <div class="next-previous-button">
+                                    <a href="#" name="previous" class="previous-button-blog"><span>&lt;</span> Previous Post</a>
+                                    <a href="#" name="next" class="next-button-blog">Next Post <span>&gt;</span></a>
                                 </div>
                                 <section class="recent-main">
                                     <h2>Recent post</h2>
-                                    <ul class="recent-post">
+                                    <ul class="recent-posts">
                                         <li>
-                                            <a href="#">Lorem Ipsum is simply dummy</a>
+                                            <a href="#">Sed consectetur ante vel enim congue commodo ldus PageMaker including versions of Lorem Ipsum</a>
                                         </li>
                                         <li>
-                                            <a href="#">Lorem Ipsum is simply dummy</a>
+                                            <a href="#">Quisque scelerisque sem in enim mollis aliquam sapien hendrerit ligula tristique bibendum.</a>
                                         </li>
                                         <li>
-                                            <a href="#">Remaining essentially unchanged..</a>
+                                            <a href="#">Praesent viverra urna sed auctor vestibulum Nullam non ligula ut enim tempor gravida.</a>
                                         </li>
                                         <li>
-                                            <a href="#">Lorem Ipsum is simply dummy</a>
+                                            <a href="#">Sed tristique mauris id pulvinar sollicitudin consectetur adipiscing elit.</a>
                                         </li>
                                     </ul>
                                 </section>
                                 <section class="comments">
                                     <h2>3 Comments</h2>
                                     <div class="comment-1">
-                                    <a href="#" class="name-1">Krishnanunni</a>
+                                    <img id="avatar" src="img/user-avatar.png" width="12%" height="12%" alt="user avatar">
+                                    <a href="#" id="name-comment">Krishnanunni</a>
                                     <time datetime="2013-10-10" class="date">10 October 2013</datetime>
                                     <a href="#" class="reply">Reply</a>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -109,7 +112,8 @@
                                 </div>
                                 <hr>
                                 <div class="comment-2">
-                                    <a href="#" class="name-2">Acrobat</a>
+                                    <img id="avatar" src="img/user-avatar.png" width="12%" height="12%" alt="user avatar">
+                                    <a href="#" id="name-comment">Acrobat</a>
                                     <time datetime="2013-10-11" class="date">11 October 2013</datetime>
                                     <a href="#" class="reply">Reply</a>
                                     <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
@@ -117,19 +121,14 @@
                                 </div>
                                 <hr>
                                 <div class="reply-1">
-                                    <a href="#" class="name-1">Krishnanunni</a>
+                                    <img id="avatar" src="img/user-avatar.png" width="15%" height="15%" alt="user avatar add">
+                                    <a href="#" id="name-comment">Krishnanunni</a>
                                     <time datetime="2013-10-11" class="date">11 October 2013</datetime>
                                     <a href="#" class="reply">Reply</a>
                                     <p>With the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
                                         with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
                                 </div>
-                                </section>
-                                <div class="next-previous-button">
-                                    <a href="#" name="previous" class="previous-button-blog">&lt;</a>
-                                    <label for="previous-button-blog" name="previous">Previous Post</label>
-                                    <label for="next-button-blog" name="next">Next Post</label>
-                                    <a href="#" class="next-button-blog">&gt;</a>
-                                </div>
+                            </section>
                                 <section class="comment-form">
                                     <h2>Leave a Comment</h2>
                                     <form action="#" method="POST">
@@ -150,7 +149,11 @@
                                         <button class="send">Send</button>
                                         </li>
                                     </ul>
+                                    <label class="checkbox-email-notify"> 
+                                        <input id="checkbox" type="checkbox"> notfiy me of followup comments via e-mail
+                                    </label>
                                 </section>
+                                
                 </section>
                 <section class="sidebar">
                 <section class="search">
@@ -238,4 +241,19 @@
             </section>
     </section>
 </section>
+<footer class="other-footer">
+    <hr>
+    <ul class="social-networks-other">
+        <li>
+            <a href="#"><img src="img/facebook.png" width="42" height="42" alt="facebook icon"></a>
+        </li>
+        <li>
+            <a href="#"><img src="img/twitter.png" width="42" height="42" alt="twitter icon"></a>
+        </li>
+        <li>
+            <a href="#"><img src="img/google+.png" width="42" height="42" alt="google+ icon"></a>
+        </li>
+    </ul>
+    <p class="contact-info-other">Copyright © Designed by cssauthor.com</p>
+</footer>
 </body>
