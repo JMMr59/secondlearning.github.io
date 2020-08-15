@@ -82,6 +82,9 @@ ul.nav-list a:focus {
     background-color: #ffffff;
     flex-direction: row;
 }
+#blog-link {
+    color: #000000;
+}
 .blog-prewiev {
     padding: 0px 70px 72px 234px;
     display: flex;
